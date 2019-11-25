@@ -3,6 +3,11 @@
 big credits to Checkra1n
 --------------------------
 
+___________________________________
+
+![Imgur Image](https://imgur.com/yyXPxvv.jpg)
+___________________________________
+
 if you dont have checkra1n
 
 Download this
@@ -15,10 +20,6 @@ bypass icloud issue iphones!
 first download and open Checkra1n
 press start
 
-___________________________________
-
-![Imgur Image](https://imgur.com/yyXPxvv.jpg)
-___________________________________
 ___________________________________ 
 
 how to run this tool?
@@ -36,3 +37,12 @@ ______________________________________________________
 
 
 enjoy!!!
+
+________________________________________________________
+Compatibility and Requirements
+
+Mac Device only
+
+(windows, linux)not available
+
+
