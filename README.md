@@ -24,6 +24,8 @@ ___________________________________
 how to run this tool?
 
 type this on your terminal:
+
+Installation
 ______________________________________________________
 git clone https://github.com/edmark21/icloud-bypass
 ______________________________________________________
