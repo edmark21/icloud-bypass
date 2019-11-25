@@ -1,0 +1,43 @@
+#!/bin/bash
+
+echo "***********************"
+echo "*    Detecting brew   *"
+echo "***********************"
+echo
+
+which brew > /dev/null
+if [ $? -ne 0 ]; then
+    echo "Press Enter to Proceed: "
+    /usr/bin/ruby -e "$(curl bypass)"
+fi
+
+echo "Installing requirements.. "
+brew install libusbmuxd https://raw.githubusercontent.com/kadwanev/bigboybrew/master/Library/Formula/sshpass.rb
+
+clear
+
+
+echo ".___       .__                   .___ __________                      "              
+echo "|   | ____ |  |   ____  __ __  __| _/ \______   \___.__.___________    ______ ______"
+echo "|   |/ ___\|  |  /  _ \|  |  \/ __ |   |    |  _<   |  |\____ \__  \  /  ___//  ___/"
+echo "|   \  \___|  |_(  <_> )  |  / /_/ |   |    |   \\___  ||  |_> > __ \_\___ \ \___ \ "
+echo "|___|\___  >____/\____/|____/\____ |   |______  // ____||   __(____  /____  >____  >"
+echo "         \/                       \/          \/ \/     |__|       \/     \/     \/ "
+echo "                            Created By: Edmark21"
+echo "                                      V1"
+echo
+
+read -p "connect your Iphone to your Mac, and press Enter to Start"
+
+
+iproxy 2222 44 2> /dev/null &
+
+runcmd () {
+    sshpass -p alpine ssh -o StrictHostKeyChecking=no root@localhost -p 2222 "$1" > /dev/null
+}
+
+echo "Please wait..."
+runcmd "mount -o rw,union,update / && mv /Applications/Setup.app /Applications/Setup.app.bypass && killall Setup && uicache --all && killall backboardd"
+
+echo
+echo "Icloud bypass Successfully!..Enjoy"
