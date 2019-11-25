@@ -22,17 +22,16 @@ press start
 
 ___________________________________ 
 
-how to run this tool?
-
-type this on your terminal:
 
 Installation
 ______________________________________________________
-git clone https://github.com/edmark21/icloud-bypass
+$   git clone https://github.com/edmark21/icloud-bypass
 ______________________________________________________
-cd icloud-bypass
+how to run this tool?
+
+$   cd icloud-bypass
 ______________________________________________________
-bash bypass
+$   bash bypass
 ______________________________________________________
 
 
